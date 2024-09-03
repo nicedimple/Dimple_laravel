@@ -6,11 +6,6 @@ document.getElementById('infoForm').addEventListener('submit', function(event) {
     let hobbies = document.getElementById('hobbies').value; 
     let isStudent = document.getElementById('student').checked; 
 
-//     let summary = `<p>Name: ${name} <br>Age: ${age} <br>Hobbies: ${hobbies} <br>Student: ${isStudent ? 'Yes' : 'No'} </p>`;
-
-
-//     document.getElementById('summary').innerHTML += summary;
-// });
 
 let summaryItem = document.createElement('div');
 summaryItem.classList.add('summary-item');
